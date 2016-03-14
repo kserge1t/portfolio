@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <head>
+  <script src="../jquery-1.12.1.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Slackey' rel='stylesheet' type='text/css'>
   <link href="../normalize.css" rel="stylesheet">
   <title>Serj86</title>
   <style>
     header {
       text-align: center;
+	  background-color: black;
       background: url('../media/stars-690522.jpg'); 
       background-size: cover;
-	  color: #eee;
+	  color: white;
     }
-    a {
-      color: white;
-    }
+	
     h1 {
+      font-family: 'Slackey', cursive;
       font-size: 25px;
-	  text-shadow: 2px 2px 5px #aaa;
+	  text-shadow: 3px 3px 5px rgba(255,255,255,.8);
     }
-    img {
+	
+    .logo {
       margin: 40px 0px 0px 0px;
       border: 5px solid white;
-      border-radius: 100%;
-	  box-shadow: 5px 10px 5px grey;
+      border-radius: 50%;
+	  box-shadow: 5px 10px 10px rgba(255,255,255,.5);
     }
-    ul {
+	
+    .mul {
       padding: 10px;
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,255,0.5);
+	  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
     }
-    li {
+	
+    .mli {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+	
     p {
-      max-width: 500px;
+      max-width: 600px;
       padding: 20px;
       margin: 0 auto;
     }
-    @media (max-width: 500px) {
+	
+    .topmenu {
+      color: white;
+    }
+	
+	@media (min-width: 1200px) {
+		p {
+			max-width: 50%;
+		}
+	}
+	
+    @media (max-width: 600px) {
       h1 {
         font-size: 15px;
         padding: 5px;
-		text-shadow: 2px 2px 5px black;
       }
-      li {
+	  
+      .mli {
         padding: 5px;
         display: block;
       }
-    }
-    body {
-      /* background: url('../media/night-932424_1920.jpg'); 
-      background-size: cover; */
+	  
     }
   </style>
 </head>
 <body>
 	<header>
-		<img src="../media/glowspin.gif">
-		<h1>Hello! I'm Serj, welcome to my page.</h1>
-		<ul>
-		  <li><a href="#">About Me</a></li>
-		  <li><a href="#">Hands-On</a></li>
-		  <li><a href="#">Projects</a></li>
+		<img class="logo" src="../media/glowspin.gif">
+		<h1>Hi! I'm Serj, welcome to my page.</h1>
+		<ul class="mul">
+		  <li class="mli"><a class="topmenu" href="#">About Me</a></li>
+		  <li class="mli"><a class="topmenu" href="#">Hands-On</a></li>
+		  <li class="mli"><a class="topmenu" href="#">Projects</a></li>
 		</ul>
 	</header>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae libero ac nisl ullamcorper imperdiet at a dolor. Etiam quis ante lectus. Suspendisse potenti. Suspendisse vulputate dignissim sapien ac auctor. Fusce posuere scelerisque mauris, quis ultricies quam. Fusce ut rutrum elit. Etiam ut diam fermentum, gravida dolor vel, ultricies nisi. Nulla tincidunt condimentum molestie.</p>
+	<p>Curabitur id tincidunt felis, eu molestie sapien. Cras egestas, augue nec faucibus imperdiet, nulla ligula viverra eros, vel molestie orci nunc eget sapien. Aliquam mattis tortor sed ex sagittis eleifend. Vestibulum nec porttitor ante. Proin aliquam odio in molestie venenatis. Phasellus sollicitudin odio ac laoreet feugiat. Nam fermentum eget lectus vulputate vulputate. Nullam cursus maximus velit nec egestas. Vivamus pulvinar, arcu quis gravida fermentum, magna justo pretium magna, non tempus justo diam ac dolor. Nullam odio erat, pulvinar non vehicula sed, dignissim non dui.</p>
+	<p>Pellentesque a ultrices eros, id pellentesque sapien. Maecenas blandit felis sed ultricies imperdiet. Vivamus vel orci felis. Nullam placerat mauris eget elit porta scelerisque. Curabitur laoreet quam id nibh ornare, ac feugiat quam sodales. Suspendisse potenti. Aliquam nec metus ipsum.</p>
+	<p>Suspendisse neque nibh, ullamcorper non turpis a, dignissim efficitur enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris non molestie tortor. Phasellus sit amet elit vitae nulla tempus mollis et ut enim. Nam eleifend rhoncus tincidunt. Quisque luctus dapibus ipsum vitae suscipit. Fusce dui diam, dignissim viverra nulla ac, sodales iaculis lorem.</p>
+	<p>Phasellus tempus justo sit amet tortor iaculis, et tempus ligula egestas. Nulla accumsan gravida ante, et pulvinar neque hendrerit id. Nam ac fermentum velit. Nullam nec quam ipsum. Donec ullamcorper tempus ex. Praesent sagittis tortor nibh, eget facilisis felis malesuada vehicula. Donec et vulputate turpis, vitae vestibulum sem. Pellentesque dapibus cursus orci, et vulputate ipsum bibendum ut. Quisque vulputate libero eget cursus vulputate. Integer ut augue eget eros hendrerit luctus. Fusce nec tempus magna. Aenean vestibulum imperdiet lacus, non iaculis magna faucibus facilisis. Sed dapibus pretium varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ac urna ut tellus vulputate ultricies at eu sapien.</p>
+
+	<script>
+	  
+	</script>
 </body>
