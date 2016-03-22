@@ -1,0 +1,65 @@
+    header {
+      text-align: center;
+	  background-color: black;
+      background: url('../media/stars-690522.jpg'); 
+      background-size: cover;
+	  color: white;
+    }
+	
+    header h1 {
+      font-family: 'Slackey', cursive;
+      font-size: 25px;
+	  text-shadow: 3px 3px 5px rgba(255,255,255,.8);
+    }
+	
+    header img {
+      margin: 40px 0px 0px 0px;
+      border: 5px solid white;
+      border-radius: 50%;
+	  box-shadow: 5px 10px 10px rgba(255,255,255,.5);
+    }
+	
+    header ul {
+      padding: 10px;
+      background: rgba(0,0,255,0.5);
+	  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	  background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    }
+	
+    header li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+	
+	header a {
+      color: white;
+    }
+	
+    /* p {
+      max-width: 600px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+	
+
+	
+	@media (min-width: 1200px) {
+		p {
+			max-width: 50%;
+		}
+	}
+	
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 15px;
+        padding: 5px;
+      }
+	  
+      header li {
+        padding: 5px;
+        display: block;
+      }
+	  
+    } */
