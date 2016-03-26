@@ -21,19 +21,6 @@
 	  box-shadow: 5px 10px 10px rgba(255,255,255,.5);
     }
 	
-	.nav {
-		font-size: 20px;
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	
-	@media (min-width: 1000px) {
-		.jumbotron .tab-content {
-			max-width: 75%;
-			margin: 0 auto;
-		}
-	}
-	
 	header a {
       color: #eee;
 	  text-shadow: 3px 3px 5px rgba(0,0,0,.8);
@@ -48,6 +35,23 @@
 	  background: -o-linear-gradient(bottom, rgba(255,255,255,0.95), rgba(255,255,255,0.1));
     }
 	
+	footer {
+		text-align: center;
+	}
+	
+	.nav {
+		font-size: 20px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	@media (min-width: 1000px) {
+		.jumbotron .tab-content {
+			max-width: 75%;
+			margin: 0 auto;
+		}
+	}
+	
     @media (max-width: 600px) {
       header h1 {
         font-size: 15px;
@@ -59,4 +63,5 @@
         display: block;
       }
 	  
-    } */
+    }
+	
